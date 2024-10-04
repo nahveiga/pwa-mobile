@@ -2,13 +2,12 @@ self.addEventListener('install', function(event) {
     event.waitUntil(
         caches.open('massas-cache').then(function(cache) {
             return cache.addAll([
-                '/',
-                '/index.html',
-                '/style.css',
-                '/js.js',
-                '/manifest.json',
-                '/icon-192x192.png',
-                '/icon-512x512.png'
+        
+                'index.html',
+                'style.css',
+                'js.js',
+                'manifest.json',
+                  'teste.jpg',
             ]);
         })
     );
