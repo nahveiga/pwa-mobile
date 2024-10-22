@@ -1,12 +1,21 @@
 {
+    // informações passadas para o app
     "name": "Cardápio de Massas",
     "short_name": "Massas",
     "description": "Cardápio com as massas mais famosas.",
+   
+   // url inicial app
     "start_url": "index.html",
+    // como será a visualização inicial do app, standlone para assemelhar com app nativo do sistema operacional
     "display": "standalone",   
+    // cor do fundo de carregamento do app
     "background_color": "#ffffff",
+    // especificação do da orientação 
     "orientation": "portrait",
+    // cor tema (aparece na barra de tarefas celular)
     "theme_color": "#ffeb3b",  
+
+    // icon app e icon inicial de carregamento
     "icons": [
         {
             "src": "teste.jpg",
